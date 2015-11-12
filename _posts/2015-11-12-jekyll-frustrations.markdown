@@ -23,6 +23,7 @@ I'm not sure this is even a great solution.
 Scenario: deploy your site (a Project Page) to `gh-pages` branch.
 
 Solution:
+
 1. Stop ignoring `_site` folder. I know, I know...
 2. From the master branch `jekyll build && git subtree push --prefix _site origin gh-pages`
 
