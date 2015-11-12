@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quickbytes</title>
+    <description></description>
+    <link>http://nickbytes.comquick/</link>
+    <atom:link href="http://nickbytes.comquick/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 12 Nov 2015 08:55:38 -0500</pubDate>
+    <lastBuildDate>Thu, 12 Nov 2015 08:55:38 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>What makes redoing your own website painful?</title>
+        <description>&lt;p&gt;Every few months I redo my website. I do this because I get sick of the style or the language on the site. Sometimes I want to show off a new skill, language, or style I’ve acquired.&lt;/p&gt;
+
+&lt;p&gt;I think it’s painful because it’s hard to jam yourself into a website. Naturally, we all want to portray the best version of ourselves. Whether it’s because we value self-expression or because we want to sell work we create, we try and put our best (and most sincere) foot forward.&lt;/p&gt;
+
+&lt;p&gt;Maybe this is where writing comes in? Blogging serves as a place to share your evolving interests and experiences? I’m hoping I can kill some of that churn by writing more.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2015 12:44:53 -0500</pubDate>
+        <link>http://nickbytes.comquick/what-makes-redoing-your-website-painful</link>
+        <guid isPermaLink="true">http://nickbytes.comquick/what-makes-redoing-your-website-painful</guid>
+        
+        
+        <category>websites</category>
+        
+        <category>personal</category>
+        
+      </item>
+    
+      <item>
+        <title>Call center language</title>
+        <description>&lt;p&gt;In a recent meeting, a coworker talked about her time working in a call center.&lt;/p&gt;
+
+&lt;p&gt;She talked about use of “yes, and” language, as well as the ability to not say “no” early in a conversation.&lt;/p&gt;
+
+&lt;p&gt;Saying “no” early on in the conversation misaligned interests and created tension between the two parties. At the same time, it was important not to agree to everything the customer was seeking – incase these were unreasonable for your business.&lt;/p&gt;
+
+&lt;p&gt;I was super interested in hearing more about the lessons call centers can teach people in tech or services, so I reached out to her. Turns out I wasn’t the only one at the company interested in hearing more about this. Three of us are meeting next week (remote team, but we all happen to be in NYC) to chat about her experiences there. Should be awesome, will post what I learn.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Nov 2015 12:44:53 -0500</pubDate>
+        <link>http://nickbytes.comquick/call-center-language</link>
+        <guid isPermaLink="true">http://nickbytes.comquick/call-center-language</guid>
+        
+        
+        <category>meetings</category>
+        
+        <category>language</category>
+        
+      </item>
+    
+      <item>
+        <title>What is this?</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://twitter.com/ryandawidjan&quot;&gt;Ryan Dawidjan&lt;/a&gt; put perfectly into words how I’ve been feeling about blogging.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;high cadence thoughts &lt;a href=&quot;https://t.co/Sfz81YkEoZ&quot;&gt;https://t.co/Sfz81YkEoZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ryan (@ryandawidjan) &lt;a href=&quot;https://twitter.com/ryandawidjan/status/635124219450425344&quot;&gt;August 22, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I’ve always been a fan of the microblog services.&lt;/p&gt;
+
+&lt;p&gt;I loved Posterous (RIP, I was a college mobilizer for them), and still use tumblr. They are a nice medium (no pun intended) between polished blogging and tweeting.&lt;/p&gt;
+
+&lt;p&gt;Over the past two years, I constantly find myself revisiting my personal tagline.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’m a web developer (insert my ever-evolving interests, experiences, strengths, issues I care about, etc…).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve wanted roll up microblogging + the ability to keep others updated on my interests and experiences.&lt;/p&gt;
+
+&lt;p&gt;I think Derek Sivers has nailed this with his &lt;a href=&quot;https://sivers.org/nowff&quot;&gt;Now&lt;/a&gt; movement.&lt;/p&gt;
+
+&lt;p&gt;I’m combining all of this in &lt;em&gt;Quickbytes&lt;/em&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 06 Nov 2015 12:44:53 -0500</pubDate>
+        <link>http://nickbytes.comquick/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://nickbytes.comquick/welcome-to-jekyll</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
