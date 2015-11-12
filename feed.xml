@@ -3,11 +3,52 @@
   <channel>
     <title>Quickbytes</title>
     <description></description>
-    <link>http://nickbytes.comquick/</link>
-    <atom:link href="http://nickbytes.comquick/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Nov 2015 09:07:06 -0500</pubDate>
-    <lastBuildDate>Thu, 12 Nov 2015 09:07:06 -0500</lastBuildDate>
+    <link>http://nickbytes.com/quick/</link>
+    <atom:link href="http://nickbytes.com/quick/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 12 Nov 2015 09:24:07 -0500</pubDate>
+    <lastBuildDate>Thu, 12 Nov 2015 09:24:07 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Jekyll Frustrations</title>
+        <description>&lt;p&gt;Maybe it’s not such a great idea to try to deploy a Jekyll site while on a train before 9am.&lt;/p&gt;
+
+&lt;p&gt;I dig Jekyll. Here are my favorite parts about Jekyll:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It’s free and open-source.&lt;/li&gt;
+  &lt;li&gt;Comes with Sass support out of the box. While I’ve been more into OOCSS recently, this is still cool and relatively painless to setup because you don’t need a compilation tool like Gulp or CSSNext or Grunt or whatever tool you like.&lt;/li&gt;
+  &lt;li&gt;Static files = fast experience for users&lt;/li&gt;
+  &lt;li&gt;No need to worry about databases&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here are my least favorite parts:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Deployment. By default the site gets built (using &lt;code&gt;jekyll build&lt;/code&gt; command) into the &lt;code&gt;_site&lt;/code&gt; directory. I’m good with this so far. This directory is your site in its entirety, based on your content, configs, assets, etc etc – but this directory is ignored by git. This kind of makes sense. Typically, you don’t want to track generated files in git. My main frustrations come from the process of deploying this directory alone to the &lt;code&gt;gh-pages&lt;/code&gt; branch in a sane fashion.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;whats-solution&quot;&gt;What’s solution?&lt;/h3&gt;
+&lt;p&gt;I’m not sure this is even a great solution.&lt;/p&gt;
+
+&lt;p&gt;Scenario: deploy your site (a Project Page) to &lt;code&gt;gh-pages&lt;/code&gt; branch.&lt;/p&gt;
+
+&lt;p&gt;Solution:
+1. Stop ignoring &lt;code&gt;_site&lt;/code&gt; folder. I know, I know…
+2. From the master branch &lt;code&gt;jekyll build &amp;amp;&amp;amp; git subtree push --prefix _site origin gh-pages&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I’d love to hear what you’re doing here – this feels wrong.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Nov 2015 09:10:53 -0500</pubDate>
+        <link>http://nickbytes.com/quick/jekyll-frustrations</link>
+        <guid isPermaLink="true">http://nickbytes.com/quick/jekyll-frustrations</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>What makes redoing your own website painful?</title>
@@ -18,8 +59,8 @@
 &lt;p&gt;Maybe this is where writing comes in? Blogging serves as a place to share your evolving interests and experiences? I’m hoping I can kill some of that churn by writing more.&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Nov 2015 12:44:53 -0500</pubDate>
-        <link>http://nickbytes.comquick/what-makes-redoing-your-website-painful</link>
-        <guid isPermaLink="true">http://nickbytes.comquick/what-makes-redoing-your-website-painful</guid>
+        <link>http://nickbytes.com/quick/what-makes-redoing-your-website-painful</link>
+        <guid isPermaLink="true">http://nickbytes.com/quick/what-makes-redoing-your-website-painful</guid>
         
         
         <category>websites</category>
@@ -39,8 +80,8 @@
 &lt;p&gt;I was super interested in hearing more about the lessons call centers can teach people in tech or services, so I reached out to her. Turns out I wasn’t the only one at the company interested in hearing more about this. Three of us are meeting next week (remote team, but we all happen to be in NYC) to chat about her experiences there. Should be awesome, will post what I learn.&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Nov 2015 12:44:53 -0500</pubDate>
-        <link>http://nickbytes.comquick/call-center-language</link>
-        <guid isPermaLink="true">http://nickbytes.comquick/call-center-language</guid>
+        <link>http://nickbytes.com/quick/call-center-language</link>
+        <guid isPermaLink="true">http://nickbytes.com/quick/call-center-language</guid>
         
         
         <category>meetings</category>
@@ -74,8 +115,8 @@
 
 </description>
         <pubDate>Fri, 06 Nov 2015 12:44:53 -0500</pubDate>
-        <link>http://nickbytes.comquick/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://nickbytes.comquick/welcome-to-jekyll</guid>
+        <link>http://nickbytes.com/quick/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://nickbytes.com/quick/welcome-to-jekyll</guid>
         
         
         <category>jekyll</category>
