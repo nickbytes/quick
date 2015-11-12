@@ -16,7 +16,6 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 permalink: /:title
-destination: ./quick-deploy
 
 sass:
     sass_dir: _sass
