@@ -3,10 +3,10 @@
   <channel>
     <title>Quickbytes</title>
     <description></description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Nov 2015 08:35:31 -0500</pubDate>
-    <lastBuildDate>Thu, 12 Nov 2015 08:35:31 -0500</lastBuildDate>
+    <link>http://nickbytes.comquick/</link>
+    <atom:link href="http://nickbytes.comquick/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 12 Nov 2015 08:49:18 -0500</pubDate>
+    <lastBuildDate>Thu, 12 Nov 2015 08:49:18 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -18,8 +18,8 @@
 &lt;p&gt;Maybe this is where writing comes in? Blogging serves as a place to share your evolving interests and experiences? I’m hoping I can kill some of that churn by writing more.&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Nov 2015 12:44:53 -0500</pubDate>
-        <link>http://yourdomain.com/what-makes-redoing-your-website-painful</link>
-        <guid isPermaLink="true">http://yourdomain.com/what-makes-redoing-your-website-painful</guid>
+        <link>http://nickbytes.comquick/what-makes-redoing-your-website-painful</link>
+        <guid isPermaLink="true">http://nickbytes.comquick/what-makes-redoing-your-website-painful</guid>
         
         
         <category>websites</category>
@@ -39,8 +39,8 @@
 &lt;p&gt;I was super interested in hearing more about the lessons call centers can teach people in tech or services, so I reached out to her. Turns out I wasn’t the only one at the company interested in hearing more about this. Three of us are meeting next week (remote team, but we all happen to be in NYC) to chat about her experiences there. Should be awesome, will post what I learn.&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Nov 2015 12:44:53 -0500</pubDate>
-        <link>http://yourdomain.com/call-center-language</link>
-        <guid isPermaLink="true">http://yourdomain.com/call-center-language</guid>
+        <link>http://nickbytes.comquick/call-center-language</link>
+        <guid isPermaLink="true">http://nickbytes.comquick/call-center-language</guid>
         
         
         <category>meetings</category>
@@ -74,8 +74,8 @@
 
 </description>
         <pubDate>Fri, 06 Nov 2015 12:44:53 -0500</pubDate>
-        <link>http://yourdomain.com/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://yourdomain.com/welcome-to-jekyll</guid>
+        <link>http://nickbytes.comquick/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://nickbytes.comquick/welcome-to-jekyll</guid>
         
         
         <category>jekyll</category>
