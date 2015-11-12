@@ -5,8 +5,8 @@
     <description></description>
     <link>http://nickbytes.com/quick/</link>
     <atom:link href="http://nickbytes.com/quick/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Nov 2015 09:24:07 -0500</pubDate>
-    <lastBuildDate>Thu, 12 Nov 2015 09:24:07 -0500</lastBuildDate>
+    <pubDate>Thu, 12 Nov 2015 09:30:23 -0500</pubDate>
+    <lastBuildDate>Thu, 12 Nov 2015 09:30:23 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -33,9 +33,12 @@
 
 &lt;p&gt;Scenario: deploy your site (a Project Page) to &lt;code&gt;gh-pages&lt;/code&gt; branch.&lt;/p&gt;
 
-&lt;p&gt;Solution:
-1. Stop ignoring &lt;code&gt;_site&lt;/code&gt; folder. I know, I know…
-2. From the master branch &lt;code&gt;jekyll build &amp;amp;&amp;amp; git subtree push --prefix _site origin gh-pages&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Solution:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Stop ignoring &lt;code&gt;_site&lt;/code&gt; folder. I know, I know…&lt;/li&gt;
+  &lt;li&gt;From the master branch &lt;code&gt;jekyll build &amp;amp;&amp;amp; git subtree push --prefix _site origin gh-pages&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;I’d love to hear what you’re doing here – this feels wrong.&lt;/p&gt;
 </description>
@@ -115,8 +118,8 @@
 
 </description>
         <pubDate>Fri, 06 Nov 2015 12:44:53 -0500</pubDate>
-        <link>http://nickbytes.com/quick/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://nickbytes.com/quick/welcome-to-jekyll</guid>
+        <link>http://nickbytes.com/quick/what-is-this</link>
+        <guid isPermaLink="true">http://nickbytes.com/quick/what-is-this</guid>
         
         
         <category>jekyll</category>
