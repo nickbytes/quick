@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>What makes redoing your own website painful?</title>
-  <meta name="description" content="Every few months I redo my website. I do this because I get sick of the style or the language on the site. Sometimes I want to show off a new skill, language...">
+  <title>Jekyll Frustrations</title>
+  <meta name="description" content="Maybe it’s not such a great idea to try to deploy a Jekyll site while on a train before 9am.">
 
   <link rel="stylesheet" href="/quick/stylesheets/main.css">
-  <link rel="canonical" href="http://nickbytes.com/quick/what-makes-redoing-your-website-painful">
+  <link rel="canonical" href="http://nickbytes.com/quick/jekyll-frustrations">
   <link rel="alternate" type="application/rss+xml" title="Quickbytes" href="http://nickbytes.com/quick/feed.xml">
 </head>
 
@@ -35,16 +35,38 @@
         <article class="post mb4" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header mb3">
-    <h1 class="h1 h1-responsive post-title mb0" itemprop="name headline">What makes redoing your own website painful?</h1>
-    <p class="mt0 gray bold post-meta"><time datetime="2015-11-11T12:44:53-05:00" itemprop="datePublished">Nov 11, 2015</time></p>
+    <h1 class="h1 h1-responsive post-title mb0" itemprop="name headline">Jekyll Frustrations</h1>
+    <p class="mt0 gray bold post-meta"><time datetime="2015-11-12T09:10:53-05:00" itemprop="datePublished">Nov 12, 2015</time></p>
   </header>
 
   <div class="post-content mb4" itemprop="articleBody">
-    <p>Every few months I redo my website. I do this because I get sick of the style or the language on the site. Sometimes I want to show off a new skill, language, or style I’ve acquired.</p>
+    <p>Maybe it’s not such a great idea to try to deploy a Jekyll site while on a train before 9am.</p>
 
-<p>I think it’s painful because it’s hard to jam yourself into a website. Naturally, we all want to portray the best version of ourselves. Whether it’s because we value self-expression or because we want to sell work we create, we try and put our best (and most sincere) foot forward.</p>
+<p>I dig Jekyll. Here are my favorite parts about Jekyll:</p>
 
-<p>Maybe this is where writing comes in? Blogging serves as a place to share your evolving interests and experiences? I’m hoping I can kill some of that churn by writing more.</p>
+<ol>
+  <li>It’s free and open-source.</li>
+  <li>Comes with Sass support out of the box. While I’ve been more into OOCSS recently, this is still cool and relatively painless to setup because you don’t need a compilation tool like Gulp or CSSNext or Grunt or whatever tool you like.</li>
+  <li>Static files = fast experience for users</li>
+  <li>No need to worry about databases</li>
+</ol>
+
+<p>Here are my least favorite parts:</p>
+
+<ol>
+  <li>Deployment. By default the site gets built (using <code>jekyll build</code> command) into the <code>_site</code> directory. I’m good with this so far. This directory is your site in its entirety, based on your content, configs, assets, etc etc – but this directory is ignored by git. This kind of makes sense. Typically, you don’t want to track generated files in git. My main frustrations come from the process of deploying this directory alone to the <code>gh-pages</code> branch in a sane fashion.</li>
+</ol>
+
+<h3 id="whats-solution">What’s solution?</h3>
+<p>I’m not sure this is even a great solution.</p>
+
+<p>Scenario: deploy your site (a Project Page) to <code>gh-pages</code> branch.</p>
+
+<p>Solution:
+1. Stop ignoring <code>_site</code> folder. I know, I know…
+2. From the master branch <code>jekyll build &amp;&amp; git subtree push --prefix _site origin gh-pages</code></p>
+
+<p>I’d love to hear what you’re doing here – this feels wrong.</p>
 
   </div>
 
