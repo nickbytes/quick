@@ -1,25 +1,28 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "What is this?"
 date:   2015-11-06 12:44:53 -0500
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+[Ryan Dawidjan][ryan] put perfectly into words how I've been feeling about blogging.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">high cadence thoughts <a href="https://t.co/Sfz81YkEoZ">https://t.co/Sfz81YkEoZ</a></p>&mdash; Ryan (@ryandawidjan) <a href="https://twitter.com/ryandawidjan/status/635124219450425344">August 22, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Jekyll also offers powerful support for code snippets:
+I've always been a fan of the microblog services.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+I loved Posterous (RIP, I was a college mobilizer for them), and still use tumblr. They are a nice medium (no pun intended) between polished blogging and tweeting.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Over the past two years, I constantly find myself revisiting my personal tagline.
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+> I'm a web developer (insert my ever-evolving interests, experiences, strengths, issues I care about, etc...).
+
+I've wanted roll up microblogging + the ability to keep others updated on my interests and experiences.
+
+I think Derek Sivers has nailed this with his [Now][now] movement.
+
+I'm combining all of this in *Quickbytes*.
+
+
+[ryan]: https://twitter.com/ryandawidjan
+[now]: https://sivers.org/nowff

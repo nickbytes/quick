@@ -2,22 +2,28 @@
 layout: default
 ---
 
-<div class="home">
+<div>
 
-  <h1 class="page-heading">Posts</h1>
+  {% for post in site.posts  %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    {% if forloop.first %}
+      <h2 class="h1 h1-responsive" id="{{ this_year }}-ref">{{this_year}}</h2>
+      <ul class="list-reset">
+    {% endif %}
+        <li class="mx3">
+          <a class="h2" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    {% if forloop.last %}
+      </ul>
+    {% else %}
+        {% if this_year != next_year %}
+      </ul>
+        <h2 class="h1 h1-responsive" id="{{ next_year }}-ref">{{next_year}}</h2>
+      <ul>
+        {% endif %}
+    {% endif %}
+{% endfor %}
 </div>

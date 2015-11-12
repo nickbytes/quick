@@ -1,0 +1,19 @@
+---
+---
+
+@import "basscss";
+
+.container38{
+  max-width: 42em;
+}
+
+blockquote{
+  border-left: 6px solid $black;
+  padding-left: 10px;
+  margin: 20px 0;
+}
+
+blockquote > *{
+  font-weight: 700;
+  font-size: 1.4em;
+}
